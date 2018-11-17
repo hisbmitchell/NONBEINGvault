@@ -16,9 +16,7 @@
       <script>
           
     var gifImageGo = document.getElementsByTagName("isGifImage");
-    var fourthImg = "infoBox0.jpg";
-    var firstHeight = 400;
-    var firstWidth = 460;
+     var fourthImg = "infoBox1.jpg";
     var fourthWidth = "492px";
     var fourthHeight = "613px";
     var fourthImgTwo = "infoBox2.jpg";
@@ -69,9 +67,6 @@
                   facesHeight = "70%";
                   fourthHeight = "905px";
                   fourthImgTwoTop = "59%";
-                
-                firstWidth = "600px";
-                firstHeight = "705px";
                   
                   
               }else {
@@ -106,12 +101,12 @@
               }
               
               if (numOfClicks == 7){
-                  document.getElementById("first").style.width=fourthWidth;
-                  document.getElementById("first").style.height=fourthHeight;
+                  document.getElementById("first").style.width="460px";
+                  document.getElementById("first").style.height="400px";
                   document.getElementById("first").src =firstImg;
                  
-                  document.getElementById("first").style.left="20%" ;
-                  document.getElementById("first").style.top="50%" ;
+                  document.getElementById("first").style.left="0%" ;
+                  document.getElementById("first").style.top="70%" ;
                   
                   
                   
@@ -128,8 +123,8 @@
                 if (numOfClicks == 11){
                   document.getElementById("third").style.width="400px" ;
                     document.getElementById("third").style.height="270px" ;
-                     document.getElementById("third").style.left="35%" ;
-                  document.getElementById("third").style.top="25%" ;
+                     document.getElementById("third").style.left="45%" ;
+                  document.getElementById("third").style.top="55%" ;
                   document.getElementById("third").src =thirdImg;
                  
               }
@@ -156,7 +151,7 @@
                   document.getElementById("seventh").style.width="320px" ;
                     document.getElementById("seventh").style.height="470px" ;
                      document.getElementById("seventh").style.left="40%" ;
-                  document.getElementById("seventh").style.top="45%" ;
+                  document.getElementById("seventh").style.top="65%" ;
                   document.getElementById("seventh").src =seventhImg;
                  
               }
@@ -184,10 +179,8 @@
           
       </script>
       
-      
+        <img id="fourth" src="meltingRed.png" class="firstImage" alt="safe space">
       <img id="fourthTwo" src="meltingRed.png" class="firstImage" alt="safe space">
-    
-      <img id="fourth" src="info0.jpg" class="firstImage" alt="first info">
       <img id="first" src="meltingRed.png" class="firstImage" alt="skull"> 
       <img id="second" src="meltingRed.png" class="firstImage" alt="morph"> 
       <img id="third" src="meltingRed.png" class="firstImage" alt="vortex">
@@ -195,8 +188,6 @@
       <img id="fifth" src="meltingRed.png" class="firstImage" alt="safe space">
       <img id="sixth" src="meltingRed.png" class="firstImage" alt="BUGS">
       <img id="seventh" src="meltingRed.png" class="firstImage" alt="bdsm">
-    
-    
       
       
       <img id="isGifImage" src="meltingRed.png" class="gifImage" alt="Melting"> 
@@ -209,7 +200,7 @@
       
 <!--      <img id="image0" src="vault3.gif" width="640" max-width="640" height="480" class="center" alt="loading live video feed..." title="Live from ">-->
  
-      <video id=mainVideo width="640" height="480" class="center" autoplay muted loop playsinline>
+      <video id=mainVideo width="640" height="480" class="center" autoplay muted loop>
   <source src="dungeon.mp4" type="video/mp4">
 </video>
       
