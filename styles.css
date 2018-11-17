@@ -118,4 +118,9 @@ src: url(/impact.ttf);
             top: 120%;
             
         }
+
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
       
