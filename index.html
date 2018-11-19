@@ -35,7 +35,9 @@
           
            var fifthImg = "newimages/head.gif";
            var sixthImg = "newimages/dancing.gif";
-          var seventhImg = "newimages/bondage.gif";
+           var seventhImg = "newimages/bondage.gif";
+           var eigthimg = "newimages/faces.gif";
+           var ninethimg = "newimages/bugs.gif";
           
     var gifHeight = "115%";
     var secondHeight = "90%";
@@ -167,9 +169,29 @@
                   document.getElementById("fifth").src =fifthImg;
                  
               }
+            
+                       if (numOfClicks == 18){
+                  document.getElementById("eigth").style.height="350px"
+                    document.getElementById("eigth").style.width="325px" ;
+                  document.getElementById("eigth").style.left="60%" ;
+                  document.getElementById("eigth").style.top="30%" ;
+                  document.getElementById("eigth").src =eigthimg;
+                  
+                   
+              } 
+               
+              if (numOfClicks == 19){
+                  document.getElementById("nineth").style.height="263px";
+                    document.getElementById("nineth").style.width="400px" ;
+                  document.getElementById("nineth").style.left="10%" ;
+                  document.getElementById("nineth").style.top="55%" ;
+                  document.getElementById("nineth").src =ninethimg;
+                  
+                   
+              } 
               
               
-              if (numOfClicks == 16){
+              if (numOfClicks == 21){
                   document.getElementById("isGifImage").style.height=gifHeight ;
                     document.getElementById("isGifImage").style.width="100%" ;
                   document.getElementById("isGifImage").src =gif_file;
@@ -200,6 +222,9 @@
       <img id="fifth" src="meltingRed.png" class="firstImage" alt="safe space">
       <img id="sixth" src="meltingRed.png" class="firstImage" alt="BUGS">
       <img id="seventh" src="meltingRed.png" class="firstImage" alt="bdsm">
+    
+    <img id="eigth" src="meltingRed.png" class="firstImage" alt="bdsm">
+    <img id="nineth" src="meltingRed.png" class="firstImage" alt="bdsm">
       
       
       <img id="isGifImage" src="meltingRed.png" class="gifImage" alt="Melting"> 
